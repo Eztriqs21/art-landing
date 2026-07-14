@@ -4,7 +4,7 @@ import { useGLTF } from "@react-three/drei";
 import { useRef, useMemo } from "react";
 import { Group, Mesh } from "three";
 
-const MODEL_PATH = "/futuristic cube portal 3d model.glb";
+const MODEL_PATH = "/futuristic-cube-portal-3d-model.glb";
 
 interface ConceptArtifactProps {
   progress: MotionValue<number>;
